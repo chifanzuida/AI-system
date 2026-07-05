@@ -1,0 +1,16 @@
+# Install darts from ../darts-master first:
+#   pip install -e "../darts-master[notorch]"
+# Or full install with torch:
+#   pip install -e "../darts-master[torch,notorch]"
+
+yfinance>=0.2.40
+pandas>=2.2.0
+numpy>=1.26.0
+lightgbm>=4.0.0
+scikit-learn>=1.6.0
+
+# Optional: A-share market data
+# akshare>=1.14.0
+
+# Optional: XGBoost model
+# xgboost>=2.1.0
